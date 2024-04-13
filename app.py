@@ -2,11 +2,9 @@ import streamlit as st
 import pandas as pd
 import docx2txt 
 import re  
-import pandas as pd 
 from openpyxl.workbook import Workbook
 from docx import Document  # For processing DOCX files
 from PyPDF2 import PdfReader  # For processing PDF files
-
 
 def main():
     st.title("CV Parser Application")
