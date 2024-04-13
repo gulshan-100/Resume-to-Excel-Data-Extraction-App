@@ -11,7 +11,7 @@ from io import BytesIO
 
 
 def main():
-    st.title("CV Parser Application")
+    st.title("cv2excel")
     
     uploaded_files = st.file_uploader("Upload CVs", type=['docx', 'pdf'], accept_multiple_files=True)
     textual_data = []
